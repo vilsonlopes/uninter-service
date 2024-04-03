@@ -11,7 +11,7 @@ from alertaemail import send_mail
 load_dotenv()
 
 # Parametros padrões para uso no código.
-default = ("10428963 _SA_ 1ª VIA - HISTÓRICO ESCOLAR DIGITAL DE CONCLUSÃO: PÓS-GRADUAÇÃO CIÊNCIAS DE DADOS E "
+default = ("00428963 _SA_ 1ª VIA - HISTÓRICO ESCOLAR DIGITAL DE CONCLUSÃO: PÓS-GRADUAÇÃO CIÊNCIAS DE DADOS E "
            "INTELIGÊNCIA ARTIFICIAL Fechado 19/02/2024 Taxa de solicitação deste serviço isenta")
 uninter_login = os.getenv("UNINTER_LOGIN")
 uninter_password = os.getenv("UNINTER_PASSWORD")
