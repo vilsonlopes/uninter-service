@@ -2,9 +2,9 @@ name: Aviso-UNINTER
 run-name: ${{ github.actor }} - UNINTER
 
 on:
-  workflow_dispatch:
-#  schedule:
-#    - cron: '30 5,21 * * *'
+#  workflow_dispatch:
+  schedule:
+    - cron: '20 5,20 * * *'
 
 jobs:
   run_schedule:
